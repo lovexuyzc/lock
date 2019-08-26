@@ -2,6 +2,8 @@ package com.atguigu.lock;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @outhor shkstart
@@ -28,7 +30,6 @@ public class SemaphoreDemo {
             },String.valueOf(i)).start();
 
         }
-
 
     }
 
